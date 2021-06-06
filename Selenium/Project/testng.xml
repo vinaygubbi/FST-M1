@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+	<test name="Tests">
+		<classes>
+			<class name="lmsActivities.Activity1" />
+			<class name="lmsActivities.Activity2" />
+			<class name="lmsActivities.Activity3" />
+			<class name="lmsActivities.Activity4" />
+			<class name="lmsActivities.Activity5" />
+			<class name="lmsActivities.Activity6" />
+			<class name="lmsActivities.Activity7" />
+			<class name="lmsActivities.Activity8" />
+			<class name="lmsActivities.Activity9" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
